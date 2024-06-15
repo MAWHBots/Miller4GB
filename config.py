@@ -2,19 +2,19 @@ import os
 
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER = int(os.environ.get("OWNER", ""))
-BOT_USERNAME = os.environ.get('BOT_USERNAME', "")
+API_ID = int(os.environ.get("API_ID", "23323912"))
+API_HASH = os.environ.get("API_HASH", "5b7decd292e78a57d631ea1849b7098a")
+OWNER = int(os.environ.get("OWNER", "5324831370"))
+BOT_USERNAME = os.environ.get('BOT_USERNAME', "CelestialButcherBot")
 
 FORCE_SUBS = os.environ.get("FORCE_SUBS", "")
-LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002229216652"))
 
-DB_URL = os.environ.get("DB_URL", "")
-DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://dhakeddeendayal27:deenu24@cluster0.c7sdmgm.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DB_NAME", "dhakeddeendayal27")
 
 STRING = os.environ.get("STRING", "")
-BOT_PIC = os.environ.get("BOT_PIC", "https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg")
+BOT_PIC = os.environ.get("BOT_PIC", "https://telegra.ph/file/5647104daee8b05ce6e55.jpg")
 
 
 
