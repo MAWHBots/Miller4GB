@@ -3,7 +3,7 @@ from plugins.cb_data import app as Client2
 from config import *
 import pyrogram.utils
 
-pyrogram.utils.LOG_CHANNEL = -1002149727413
+pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
 
 
 bot = Client(
