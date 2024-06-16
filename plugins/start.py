@@ -70,7 +70,7 @@ async def send_doc(client, message):
     prrename = bot_data['total_rename']
     prsize = bot_data['total_size']
     user_deta = find_one(user_id)
-    #used_date = user_deta["used_date"]
+    used_date = user_deta["date"]
     buy_date = user_deta["prexdate"]
     daily = user_deta["daily"]
     user_type = user_deta["usertype"]
